@@ -33,6 +33,21 @@
     text-decoration: none;
 }
 
+.img-logo {
+    justify-content: start;
+}
+.logo {
+    text-align: center;
+    margin: 20px 100px;
+}
+.container-fluid {
+    background-color: black;
+    opacity: 0.8;
+}
+.text-slide .in{
+    font-weight: bold;
+    font-family: fantasy;
+}
 
 .carousel-control-prev-icon:hover {
   font-size: 30px;
@@ -66,19 +81,9 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 30px;
 }
-.img-logo {
-    justify-content: start;
-}
-.logo {
-    text-align: center;
-    margin: 20px 100px;
-}
-.container-fluid {
-    background-color: black;
-    opacity: 0.8;
-}
 
-.carousel-control-prev-icon,
+
+
 .carousel-control-next-icon{
   height: 50px;
   width: 50px;
@@ -87,10 +92,20 @@
   background-color: #254659;
 }
 
+.carousel-control-prev-icon{
+    height: 50px;
+  width: 50px;
+  background-size: 30%, 30%;
+  border-radius: 50%;
+  background-color: #254659;
+}
 .carousel-control-next-icon:hover
 {
   font-size: 30px;
   background-color: #4BCAFF;
+}
+.carousel .active {
+    background-color: #4AC9FE
 }
 
 .text-slide span {
@@ -125,9 +140,16 @@
     margin-right: 100px;
     margin-top: 28px;
 }
-.carousel-control-prev-icon,
+
 .carousel-control-next-icon{
   height: 50px;
+  width: 50px;
+  background-size: 30%, 30%;
+  border-radius: 50%;
+  background-color: #254659;
+}
+.carousel-control-prev-icon{
+     height: 50px;
   width: 50px;
   background-size: 30%, 30%;
   border-radius: 50%;
@@ -143,6 +165,9 @@
 .carousel-control-prev-icon:hover {
   font-size: 30px;
   background-color: #4BCAFF;
+}
+.col-7 .name{
+    font-style: italic;
 }
 .btn-default{
     border: 1px solid #fff;
